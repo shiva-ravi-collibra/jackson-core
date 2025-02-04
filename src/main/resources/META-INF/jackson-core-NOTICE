@@ -30,3 +30,12 @@ Copyright © 2023 Werner Randelshofer, Switzerland. MIT License.
 
 See FastDoubleParser-NOTICE for details of other source code included in FastDoubleParser
 and the licenses and copyrights that apply to that code.
+
+## Collibra Contribution
+
+NEW PART STARTS HERE ----
+This version of jackson-core (2.15.2-collibra-1) is not officially supported by Tatu Saloranta. 
+It includes a high security fix for CWE-400, which addresses a Denial of Service (DoS) vulnerability in functional JSON streaming API and excludes the Java 17 and Java 19 classes from Randelshofer's FastDoubleParser. This version is compatible with Java 8 and Java 11 compile runtime environments.
+For more information on the vulnerability, please refer to the official CWE-400 and Github PR https://github.com/FasterXML/jackson-core/issues/861
+Use at your own risk. We recommend upgrading to a supported version of Jackson core whenever possible.
+-- NEW PART ENDS HERE 
