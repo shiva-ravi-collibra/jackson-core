@@ -30,3 +30,13 @@ Copyright © 2023 Werner Randelshofer, Switzerland. MIT License.
 
 See FastDoubleParser-NOTICE for details of other source code included in FastDoubleParser
 and the licenses and copyrights that apply to that code.
+
+## Collibra Contribution
+
+NEW PART STARTS HERE ----
+This version of jackson-core (2.18.6-collibra-1) is not officially supported by Tatu Saloranta.
+It excludes the Java 17 and Java 21 classes from Randelshofer's FastDoubleParser for compatibility
+with maven-shade-plugin 3.4.1 used in the hadoop-client-runtime build. This version is compatible
+with Java 8, Java 11, and Java 17 runtime environments.
+Use at your own risk. We recommend upgrading to a supported version of Jackson core whenever possible.
+-- NEW PART ENDS HERE
